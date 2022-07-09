@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@esm/index.mjs";function e(r,e,n,a){var t,f,i,N,u,o,d,s,l;if(r<=0)return NaN;if(1===r||0===a)return(d=n[0])==d&&r-e>0?0:NaN;for(f=a<0?(1-r)*a:0,l=0;l<r;l++){if((d=n[f])==d){t=d;break}f+=a}if(l===r)return NaN;for(f+=a,l+=1,i=0,u=0,s=1;l<r;l++)(d=n[f])==d&&(i+=(o=d-t)*o,u+=o,s+=1),f+=a;return(N=s-e)<=0?NaN:i/N-u/s*(u/N)}function n(r,e,n,a,t){var f,i,N,u,o,d,s,l,m;if(r<=0)return NaN;if(1===r||0===a)return(s=n[t])==s&&r-e>0?0:NaN;for(i=t,m=0;m<r;m++){if((s=n[i])==s){f=s;break}i+=a}if(m===r)return NaN;for(i+=a,m+=1,N=0,o=0,l=1;m<r;m++)(s=n[i])==s&&(N+=(d=s-f)*d,o+=d,l+=1),i+=a;return(u=l-e)<=0?NaN:N/u-o/l*(o/u)}r(e,"ndarray",n);export{e as default,n as ndarray};
+//# sourceMappingURL=index.mjs.map
