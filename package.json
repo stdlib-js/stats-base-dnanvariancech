@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/stats-base-dnanvariancech",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Calculate the variance of a double-precision floating-point strided array ignoring NaN values and using a one-pass trial mean algorithm.",
   "license": "Apache-2.0",
   "author": {
@@ -41,10 +41,10 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-error": "^0.2.1",
-    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.1",
+    "@stdlib/assert-is-error": "^0.2.2",
+    "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1",
-    "@stdlib/utils-try-require": "^0.2.1"
+    "@stdlib/utils-try-require": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-float64": "^0.2.1",
