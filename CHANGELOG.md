@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-01)
+## Unreleased (2025-03-04)
 
 <section class="features">
 
@@ -20,9 +20,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#5430](https://github.com/stdlib-js/stdlib/issues/5430)
+[#5430](https://github.com/stdlib-js/stdlib/issues/5430), [#5718](https://github.com/stdlib-js/stdlib/issues/5718)
 
 </section>
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`2e43df0`](https://github.com/stdlib-js/stdlib/commit/2e43df04b30107baae137ed29552ae3cd9de4add) - **chore:** address commit comments [(#5744)](https://github.com/stdlib-js/stdlib/pull/5744) _(by Dhruvil Mehta)_
 -   [`a1c366a`](https://github.com/stdlib-js/stdlib/commit/a1c366a395fd46fde193bad73bac162daf90389b) - **chore:** address commit comments [(#5492)](https://github.com/stdlib-js/stdlib/pull/5492) _(by Harsh, Neeraj Pathak)_
 -   [`00b23b3`](https://github.com/stdlib-js/stdlib/commit/00b23b3cb5b4e72bf977a9ac170062f8e8614ef1) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dnanvariancech` [(#4803)](https://github.com/stdlib-js/stdlib/pull/4803) _(by Prashant Kumar Yadav)_
 -   [`ca5cd8e`](https://github.com/stdlib-js/stdlib/commit/ca5cd8eda51ba2c274b9aeb0161f6c1cdf6a3e09) - **refactor:** update `stats/base/dnanvariancech` native addon from C++ to C [(#4719)](https://github.com/stdlib-js/stdlib/pull/4719) _(by Prashant Kumar Yadav)_
@@ -52,9 +53,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Dhruvil Mehta
 -   Harsh
 -   Neeraj Pathak
 -   Philipp Burckhardt
